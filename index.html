@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quote Generator</title>
-    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=react.dev">
+    <link rel="icon" type="image/png" href="hashtag-solid.svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -17,15 +17,15 @@
         </div>
         <!-- Author -->
         <div class="quote-author">
-            <span id="author"></span>
+            <span id="author">"—"</span>
         </div>
         <!-- Buttons -->
         <div class="button-container">
             <button class="twitter-button" id="twitter" title="Tweet This!">
                 <i class="fab fa-twitter"></i>
             </button>
-            <button id="new-quote">
-                <span>New Quote</span>
+            <button class="refresh-icon" id="new-quote" title="New Quote">
+                <i class="fa-solid fa-arrows-rotate"></i>
             </button>
         </div>
     </div>
